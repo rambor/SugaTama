@@ -1,0 +1,9 @@
+MESSAGE("** CURRENT SOURCE INCLUDE DIRECTORY: ${CMAKE_CURRENT_SOURCE_DIR}")
+
+list(APPEND SOURCE_FILES
+        "${CMAKE_CURRENT_LIST_DIR}/array.hpp"
+        "${CMAKE_CURRENT_LIST_DIR}/power_sasa.h"
+        "${CMAKE_CURRENT_LIST_DIR}/power_diagram.h"
+)
+
+
